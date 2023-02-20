@@ -1,0 +1,11 @@
+How to use Complex number module
+1. Place module in the same directory as main module
+2. Import: "from ComplexNum import ComplexNum"
+3. Declare complex number in format "Real + Imaginary *i" 
+in variable by calling <variable> = ComplexNum(Real,Imaginary)
+Tip: Print <variable> to see if its correct
+4. Use basic arithemetic function on complex numbers
+
+Testing of ComplexNum.py with QB_test.py
+Install pyest module
+Run on command line pytest -rA QB_test.py
